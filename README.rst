@@ -41,4 +41,3 @@ To show pagination inormation before listing results, use::
 You will see info like
 
     INFO - Pagination information: {'total': 1, 'total_pages': 1, 'first_page': 1, 'last_page': 1, 'page': 1}
-
