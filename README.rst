@@ -41,3 +41,14 @@ To show pagination inormation before listing results, use::
 You will see info like
 
     INFO - Pagination information: {'total': 1, 'total_pages': 1, 'first_page': 1, 'last_page': 1, 'page': 1}
+
+Generate dot format graph
+-------------------------
+
+To generate a dot-format graph instead of JSON list output, use::
+
+    dtool graph UUID --dot > graph.dot
+
+or convert to PDF directly with::
+
+    dtool graph UUID --dot  | dot -Tpdf > dag.pdf

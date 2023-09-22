@@ -11,6 +11,7 @@ Added
 ^^^^^
 
 - ``dtool graph`` command
+- dot format output
 
 
 Changed
