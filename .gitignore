@@ -1,0 +1,15 @@
+*.pyc
+*.swp
+*.egg-info
+
+build
+dist
+.coverage
+.eggs
+.idea
+.tox
+.cache
+.pytest_cache
+env
+
+dtool_lookup_client_dependency_graph_plugin/version.py
